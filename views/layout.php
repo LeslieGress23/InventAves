@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
+<div class="menu">
+        <a href="#agregar">Agregar</a>
+        <a href="#ventas">Costos</a>
+        <a href="#perdidas">Existencias</a>
+        <a href="#existencias">Perdidas</a>
+        <a href="#existencias">Ventas</a>
+        <a href="#admin">Admin</a>
+    </div>
 
     <div class="contenedor-app">
         <?php echo $contenido; ?>
